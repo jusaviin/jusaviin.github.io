@@ -57,6 +57,15 @@
   }
 }
 
+.archive__item-publication {
+  margin-top: 0;
+  font-weight: 400;
+  
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-6;
@@ -81,6 +90,10 @@
 
   .archive__item-title {
     text-decoration: underline;
+  }
+
+  .archive__item-publication {
+    text-decoration: none;
   }
 }
 

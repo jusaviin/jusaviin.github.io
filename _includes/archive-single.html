@@ -30,7 +30,7 @@
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        <p><a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a></p>
       {% endif %}
     </h2>
     
@@ -52,10 +52,18 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}">{{ post.paperurl }}</a></p>
+    {% if post.citation and post.paperurl and post.arxiv and post.journalref and post.jaxedtitle%}
+      <p>Reference: {{ post.citation }}, "<i>{{ post.jaxedtitle }}</i>", <a href="{{ post.paperurl }}">{{ post.journalref }}</a> <a href="https://arxiv.org/abs/{{ post.arxiv }}">[{{ post.arxiv }}]</a></p>
+    {% elsif post.citation and post.paperurl and post.journalref and post.jaxedtitle%}
+      <p>Reference: {{ post.citation }}, "<i>{{ post.jaxedtitle }}</i>", <a href="{{ post.paperurl }}">{{ post.journalref }}</a></p>
+    {% elsif post.citation and post.paperurl and post.arxiv and post.journalref %}
+      <p>Reference: {{ post.citation }}, "<i>{{ post.title }}</i>", <a href="{{ post.paperurl }}">{{ post.journalref }}</a> <a href="https://arxiv.org/abs/{{ post.arxiv }}">[{{ post.arxiv }}]</a></p>
+    {% elsif post.citation and post.paperurl and post.journalref %}
+      <p>Reference: {{ post.citation }}, "<i>{{ post.title }}</i>", <a href="{{ post.paperurl }}">{{ post.journalref }}</a></p>
+    {% elsif post.citation and post.paperurl %}
+      <p>Reference: {{ post.citation }} <a href="{{ post.paperurl }}">{{ post.paperurl }}</a></p>
     {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }} </p>
+      <p>Reference: {{ post.citation }} </p>
     {% elsif post.paperurl %}
       <p class="wordwrap">Download <a href=" {{ post.paperurl }} ">here</a></p>
     {% endif %}
