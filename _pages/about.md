@@ -16,6 +16,6 @@ In heavy ion physics we collide heavy ions in order to create quark-gluon plasma
 
 Free time
 ======
-I find adequate amount of free time very important to balance the time spent on research. I have been doing many different sports and outdoor activities thoughout the year. I have played football (for the Americans there, in this football the ball is actually kicked with ouyr feet) in the fifth highest league stage in Finland, in addition to many different recreational leagues. I have also played volleyball at recreational league level. I also enjoy being in nature and have done countless hikes in beatiful scenaries.
+I find adequate amount of free time very important to balance the time spent on research. I have been doing many different sports and outdoor activities thoughout the year. I have played football (for the Americans there, in this football the ball is actually kicked with your feet) in the fifth highest league stage in Finland, in addition to many different recreational leagues. I have also played volleyball at recreational league level. I also enjoy being in nature and have done countless hikes in beatiful scenaries.
 
 I also really like playing board games. I own tens of games and have played hundreds of different ones. I really like the problem solving aspect in many heavier board games, where you will need to make the best decision within the available options given the game state. Even though heavy strategy games are my favorites, I enjoy any kind of games and lighter social ones are great ice breakers for evenings with friends.
