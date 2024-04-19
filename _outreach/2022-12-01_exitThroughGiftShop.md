@@ -4,7 +4,7 @@ excerpt: "I wrote an outreach article about the results of my dijet azimuthal as
 collection: outreach
 ---
 
-The CMS collaboration encourages us researchers to promote the newly published results by releasing a physics briefing, where the main results of the analysis are summarized in an article that is aimed to be understandable with the basis of high school physics. In the article I wrote about my dijet azimuthal asymmetry analysis, I describe the path-length dependent energy loss in quark-gluon plasma with the help of exiting a musem through the gift shop. Why would these events be related? <a href="https://cms.cern/news/exit-through-microscopic-gift-shop">Read my article</a> to find out!
+The CMS collaboration encourages us researchers to promote the newly published results by releasing a physics briefing, where the main results of the analysis are summarized in an article that is aimed to be understandable with the basis of high school physics. In the article I wrote about my dijet azimuthal asymmetry analysis, I describe the path-length dependent energy loss in quark-gluon plasma with the help of exiting a musem through the gift shop. Why would these events be related? [Read my article](https://cms.cern/news/exit-through-microscopic-gift-shop) to find out!
 
 <figure>
   <img src="/images/exitThroughGiftShop.png">
