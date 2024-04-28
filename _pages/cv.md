@@ -112,7 +112,7 @@ Leadership experience and positions of trust
 Honors and awards
 =====
 * June 2024: I am one of the organizers of the upcoming jet workshop during the [2024 RHIC/AGS users' meeting](https://www.bnl.gov/rhicagsaum/).
-* 2013-2016: In each of these years, I got a grant worth 20 000 € to support my PhD studies from the [Magnus Ehrnrooth fundation](https://magnusehrnroothinsaatio.fi/en/frontpage/).
+* 2013-2016: In each of these years, I got a grant worth 20 000 € to support my PhD studies from the [Magnus Ehrnrooth foundation](https://magnusehrnroothinsaatio.fi/en/frontpage/).
 * March 2013: Best oral presentation award in the annual meeting of the Finnish Phyical Society.
 
 Skills
