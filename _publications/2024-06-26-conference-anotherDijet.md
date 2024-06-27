@@ -1,6 +1,5 @@
 ---
-title: "Resolving medium properties using high-pT jets with jet and in-jet correlations in PbPb collisions at 5.02 TeV with the CMS detector"
-jaxedtitle: "Resolving medium properties using high-\\\\\\(p_{\\mathrm{T}}\\\\\\) jets with jet and in-jet correlations in PbPb collisions at 5.02 TeV with the CMS detector"
+title: "Resolving medium properties using high-p<sub>T</sub> jets with jet and in-jet correlations in PbPb collisions at 5.02 TeV with the CMS detector"
 collection: publications
 publicationtype: conference
 permalink: /publication/2024-06-26-conference-anotherDijet
