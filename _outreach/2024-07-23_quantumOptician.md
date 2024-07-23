@@ -8,5 +8,5 @@ The CMS collaboration encourages us researchers to promote the newly published r
 
 <figure>
   <img src="/images/DoYouSeeGluons.png">
-  <figcaption>An illustration of quark-gluon plasma trying hard to see all the gluons by Jennifer James, a PhD student at the Vanderbilt University.</figcaption>
+  <figcaption>An illustration of quark-gluon plasma trying hard to see all the gluons by <a href="https://sites.google.com/view/jamesjennifer/home">Jennifer James</a>, a PhD student at the Vanderbilt University.</figcaption>
 </figure>
