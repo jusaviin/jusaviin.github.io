@@ -41,7 +41,13 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% if post.venue %}
+            <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% elsif post.submitted %}
+            <p>Submitted to <i>{{ post.submitted }}</i> </p>
+          {% elsif post.inpreparation %}
+            <p>Paper in preparation </p>
+          {% endif %}
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -60,6 +66,8 @@
       <p>Reference: {{ post.citation }}, "<i>{{ post.title }}</i>", <a href="{{ post.paperurl }}">{{ post.journalref }}</a> <a href="https://arxiv.org/abs/{{ post.arxiv }}">[{{ post.arxiv }}]</a></p>
     {% elsif post.citation and post.paperurl and post.journalref %}
       <p>Reference: {{ post.citation }}, "<i>{{ post.title }}</i>", <a href="{{ post.paperurl }}">{{ post.journalref }}</a></p>
+    {% elsif post.citation and post.arxiv %}
+      <p>Reference: {{ post.citation }}, "<i>{{ post.title }}</i>", <a href="https://arxiv.org/abs/{{ post.arxiv }}">arXiv:{{ post.arxiv }}</a></p>
     {% elsif post.citation and post.paperurl %}
       <p>Reference: {{ post.citation }} <a href="{{ post.paperurl }}">{{ post.paperurl }}</a></p>
     {% elsif post.citation %}

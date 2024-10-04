@@ -39,6 +39,12 @@ layout: default
         {% elsif page.collection == 'publications' and page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
           <h2>Abstract</h2>
+        {% elsif page.collection == 'publications' and page.submitted %}
+          <p>Submitted to <i>{{ page.submitted }}</i> </p>
+          <h2>Abstract</h2>
+        {% elsif page.collection == 'publications' and page.inpreparation %}
+          <p>Paper in preparation </p>
+          <h2>Abstract</h2>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
@@ -58,6 +64,8 @@ layout: default
           <p>Reference: {{ page.citation }}, "<i>{{ page.title }}</i>", <a href="{{ page.paperurl }}">{{ page.journalref }}</a> <a href="https://arxiv.org/abs/{{ page.arxiv }}">[{{ page.arxiv }}]</a></p>
         {% elsif page.citation and page.paperurl and page.journalref %}
           <p>Reference: {{ page.citation }}, "<i>{{ page.title }}</i>", <a href="{{ page.paperurl }}">{{ page.journalref }}</a></p>
+        {% elsif page.citation and page.arxiv %}
+          <p>Reference: {{ page.citation }}, "<i>{{ page.title }}</i>", <a href="https://arxiv.org/abs/{{ page.arxiv }}">arXiv:{{ page.arxiv }}</a></p>
         {% elsif page.citation and page.paperurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
         {% elsif page.citation %}
