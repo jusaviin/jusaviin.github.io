@@ -102,7 +102,7 @@ Posters
 
 Leadership experience and positions of trust
 ======
-* 2022 - current: Convener of the high-\\(p_{\mathrm{T}}\\) physics interest group within the CMS heavy ion group
+* September 2022 - September 2024: Convener of the high-\\(p_{\mathrm{T}}\\) physics interest group within the CMS heavy ion group
 * April 2017 - May 2017: Run manager in the ALICE experiment, two weeks both in April and May
 * October 2015 -  March 2018: Junior ambassador of Finland in the ALICE experiment
 * November 2012 - November 2014: President of the residents' committee in at KOAS Ristonmaa student housing association
