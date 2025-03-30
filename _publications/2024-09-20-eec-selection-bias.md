@@ -4,9 +4,10 @@ collection: publications
 publicationtype: journal
 permalink: /publication/2024-09-20-eec-selection-bias
 excerpt: 'Derivation of a scaling factor to minimize selection bias from energy-energy correlator measurements and simulation study to illustrate the scaling factor works.'
-date: 2024-09-20
-submitted: 'Physical Review Letters'
-journalref: 'arXiv'
+date: 2025-02-27
+venue: 'Physical Review Letters'
+paperurl: 'https://doi.org/10.1103/PhysRevLett.134.082303'
+journalref: '<i>Phys. Rev. Lett.</i> <b>134</b> (2025) 8, 082303'
 arxiv: '2409.07514'
 citation: 'C. Andres, J. Holguin, R. Kunnawalkam Elayavalli, J. Viinikainen'
 ---
