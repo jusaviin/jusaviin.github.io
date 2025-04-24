@@ -50,7 +50,7 @@ Work experience
   * Jyväskylä, Finland and CERN, Switzerland/France
   * Duties included:
     * Analysis on jet fragmentation transverse momentum
-    * Run manager for the ALICE experiemnt for one month
+    * Run manager for the ALICE experiment for one month
     * Updating the firmware in the EMCal trigger for run2
     * Control room shifts at the ALICE experiment
     * Being teaching assistant in particle physics and heavy ion physics courses
