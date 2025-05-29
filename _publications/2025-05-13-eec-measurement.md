@@ -7,7 +7,7 @@ excerpt: 'First ever measurement of energy-energy correlators in heavy ion colli
 date: 2025-05-13
 venue: 'Physics Letters B'
 paperurl: 'https://doi.org/10.1016/j.physletb.2025.139556'
-journalref: '<i>Phys. Lett. B</i> 139556 (2025)'
+journalref: '<i>Phys. Lett. B</i> <b>866</b> (2025) 139556'
 arxiv: '2503.19993'
 citation: 'CMS Collaboration'
 ---
