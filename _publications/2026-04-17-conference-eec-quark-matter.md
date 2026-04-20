@@ -1,5 +1,5 @@
 ---
-title: "Study of energy-energy correlator of jets in PbPb collisions at CMS"
+title: "The first measurement of energy-energy correlator of jets in PbPb collisions at CMS"
 collection: publications
 publicationtype: conference
 permalink: /publication/2026-04-17-conference-eec-quark-matter
